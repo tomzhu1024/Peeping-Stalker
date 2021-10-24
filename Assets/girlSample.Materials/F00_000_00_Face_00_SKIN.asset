@@ -21,19 +21,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5ee50a3b208fae44f90ea165cecbdf12, type: 3}
+        m_Texture: {fileID: 2800000, guid: e50c98ad45e6744d2b54276645faad2d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 0a5335131ee34044d837507467e4aa37, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9346ca608d7de410a98e88c9a5ea2231, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c4613ce2c2c984b478135da7301120bb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0613d76df8bfc4129aadd1454fd7e536, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineWidthTexture:
-        m_Texture: {fileID: 2800000, guid: 213ffadf836eeff47b90cbef5205aadc, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3a82a0e914394a379965d016afd5958, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReceiveShadowTexture:
@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadeTexture:
-        m_Texture: {fileID: 2800000, guid: c4613ce2c2c984b478135da7301120bb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0613d76df8bfc4129aadd1454fd7e536, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadingGradeTexture:
@@ -53,13 +53,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SphereAdd:
-        m_Texture: {fileID: 2800000, guid: 6e2b6d980c4eb90478426aa1f8b6fdf6, type: 3}
+        m_Texture: {fileID: 2800000, guid: a427a292cf82d4cfab832e5f039ffad4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UvAnimMaskTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaToMask: 0
     - _BlendMode: 0
