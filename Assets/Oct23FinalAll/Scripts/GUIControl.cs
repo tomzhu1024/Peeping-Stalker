@@ -46,7 +46,7 @@ public class GUIControl : MonoBehaviour
 
     void OnGUI()
     {
-        DrawDistance(Screen.width / 2 - 400, 100, 800, 50, 5, 5, 0.45f, 0.55f, 15, 80, 0.5f);
+        DrawDistance(Screen.width / 2 - 400, 100, 800, 50, 5, 5, 0f, manager.susp, 15, 80, manager.susp);
         DrawLife(Screen.width / 2 + 425, 100, 50, 50, 25, 3);
     }
 
