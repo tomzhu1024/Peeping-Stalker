@@ -28,7 +28,6 @@ public class girlMovement : MonoBehaviour
         // Debug.Log("girl:"+dist)
         if (dist <= threshold)
         {
-            Debug.Log("getting close: " + dist);
             susp = manager.susp;
             if (susp < 1f)
             {

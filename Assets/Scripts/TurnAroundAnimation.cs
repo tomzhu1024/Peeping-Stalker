@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TurnAroundAnimation : MonoBehaviour
 {
@@ -9,6 +10,15 @@ public class TurnAroundAnimation : MonoBehaviour
 
     [Tooltip("Maximal interval between turn-around.")]
     public float maxInterval = 10;
+
+    [Tooltip("The manager script.")]
+    public manager manager;
+
+    [Tooltip("The maximal angle to detect.")]
+    public float detectAngle = 45;
+
+    [Tooltip("The maximal distance to detect.")]
+    public float detectDistance = 10;
     
     private Animator anim;
     private float poss;
@@ -29,7 +39,11 @@ public class TurnAroundAnimation : MonoBehaviour
             nextTurn = Time.time + Random.Range(minInterval, maxInterval);
             // Turn around
             TurnAround();
-            Debug.Log("[her] turn around");
+            // If detected, fail the game
+            if (manager.GetAngle() < detectAngle && manager.GetDistance() < detectDistance)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
         }
     }
 
