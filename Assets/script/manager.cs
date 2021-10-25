@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 public class manager : MonoBehaviour
 {
 	[Tooltip("The minimal distance to fail the game.")]
-	public float minimalDist = 10;
+	public static float minimalDist = 4f; //directly fail
 
 	[Tooltip("The maximal distance to fail the game.")]
-	public float maximalDist = 20;
+	public float maximalDist = 20f;
 	
 	public static float step = 3f; //share between player and girl
 	public static float dist;
@@ -22,9 +22,11 @@ public class manager : MonoBehaviour
     void Update()
     {
         getPlayerDistance();
+        // Debug.Log(dist+" while minimal is: "+minimalDist);
         if (dist < minimalDist || dist > maximalDist)
         {
-	        SceneManager.LoadScene("GameOver");
+            Debug.Log(dist<minimalDist);
+	        // SceneManager.LoadScene("GameOver");
         }
     }
 

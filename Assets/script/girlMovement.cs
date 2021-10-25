@@ -7,7 +7,7 @@ public class girlMovement : MonoBehaviour
     [SerializeField] public float speed;
     public float girlStep = manager.step;
     private float dist; //distance to follower
-    public float threshold = 9f; //safe distance
+    public float threshold = 10f; //safe distance, not causing susp to grow
 
     private float susp;
     private CharacterController _controller;
