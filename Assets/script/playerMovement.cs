@@ -23,6 +23,8 @@ public class playerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		// see if the user has pressed X, if it is , make the character to crounch
+		ispressed();
 		// read input from the user
 		InputHorizontal = Input.GetAxis("Vertical");
 		InputVertical = Input.GetAxis("Horizontal");
@@ -53,6 +55,19 @@ public class playerMovement : MonoBehaviour
 		movedirectionX = new Vector3(X_direction, 0, 0);
 		movedirectionX *= speed;
 		_controller.Move(movedirectionX * Time.deltaTime);
+	}
+	public void ispressed()
+	{
+		//Debug.Log(Input.GetKeyDown(KeyCode.X));
+		if (Input.GetKeyDown(KeyCode.X))
+		{
+			_animator.SetBool("IsCrounched", true);
+			if (Input.GetKeyUp(KeyCode.X))
+			{
+				_animator.SetBool("IsCrounched", false);
+			}
+		}
+		
 	}
 }
 
