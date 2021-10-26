@@ -12,12 +12,15 @@ public class playerMovement : MonoBehaviour
 	private Vector3 movedirectionX;
 	private float InputHorizontal;
 	private float InputVertical;
-
+	private AudioSource heart; //heartbeat  sound
 	// Start is called before the first frame update
 	void Start()
 	{
 		_animator = GetComponent<Animator>();
 		_controller = GetComponent<CharacterController>();
+		heart = GetComponent<AudioSource>();
+
+		StartCoroutine(soundCoroutine());
 	}
 
 	// Update is called once per frame
@@ -30,6 +33,8 @@ public class playerMovement : MonoBehaviour
 		triggeranimate(InputHorizontal,InputVertical);
 		// move character
 		move(InputHorizontal,InputVertical);
+
+		//get distance from manager
 	}
 	private void triggeranimate(float Z_direction,float X_direction)
 	{
@@ -53,6 +58,25 @@ public class playerMovement : MonoBehaviour
 		movedirectionX = new Vector3(X_direction, 0, 0);
 		movedirectionX *= speed;
 		_controller.Move(movedirectionX * Time.deltaTime);
+	}
+
+
+	private void playSound(){
+
+	}
+
+	IEnumerator soundCoroutine(){
+		float prevDist = 15;
+		while(true){
+			Debug.Log(manager.dist);
+			
+			heart.Play();
+
+			float interval = manager.dist < prevDist ? 0.5f : 2f;
+			prevDist = manager.dist;
+			yield return new WaitForSeconds(interval);
+
+		}
 	}
 }
 

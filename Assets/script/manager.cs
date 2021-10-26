@@ -17,6 +17,12 @@ public class manager : MonoBehaviour
 	public Transform player;
 	public Transform girl;
 	public static float susp = 0f;//girl's suspiciousness; 
+    public AudioSource street; //sound effect of street
+
+    void Start(){
+        playSound();
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -46,5 +52,9 @@ public class manager : MonoBehaviour
     public float GetDistance()
     {
 	    return Vector3.Distance(player.position, girl.position);
+    }
+
+    public void playSound(){
+        street.Play();
     }
 }
