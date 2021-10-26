@@ -38,6 +38,8 @@ public class TurnAroundAnimation : MonoBehaviour
             // Refresh `nextTurn`
             nextTurn = Time.time + Random.Range(minInterval, maxInterval);
             // Turn around
+            //show warning
+            GUIControl.toggleWarning(1);
             TurnAround();
             // If detected, fail the game
             if (manager.GetAngle() < detectAngle && manager.GetDistance() < detectDistance)

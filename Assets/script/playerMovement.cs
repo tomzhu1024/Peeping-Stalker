@@ -75,7 +75,7 @@ public class playerMovement : MonoBehaviour
 			float interval = manager.dist < prevDist ? 0.5f : 2f;
 			prevDist = manager.dist;
 			yield return new WaitForSeconds(interval);
-
+			heart.Stop();
 		}
 	}
 }

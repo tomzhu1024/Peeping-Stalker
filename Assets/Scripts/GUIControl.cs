@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GUIControl : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class GUIControl : MonoBehaviour
     private GUIStyle blockStyle;
     private Texture2D blockTexture;
     private Texture2D heartTexture;
+
+    public static Text warning;
+    public Font my_font;
 
     void Start()
     {
@@ -37,6 +41,8 @@ public class GUIControl : MonoBehaviour
         cursorStyle.normal.background = cursorTexture;
 
         heartTexture = Resources.Load("heart") as Texture2D;
+
+        drawWarning();
     }
 
     void Update()
@@ -87,6 +93,29 @@ public class GUIControl : MonoBehaviour
         for (int i = 0; i < value; i++)
         {
             GUI.DrawTexture(new Rect(x + i * (width + padding), y, width, height), heartTexture);
+        }
+    }
+
+    void drawWarning(){
+        warning = this.gameObject.AddComponent<Text>();
+        warning.text = "girl looking back!";
+        warning.alignment = TextAnchor.MiddleCenter;
+        warning.color = Color.red;
+        warning.fontSize = 36;
+        warning.font = my_font;
+        warning.color = Color.clear;
+
+        // warning.gameObject.SetActive(false);
+    }
+
+    public static void toggleWarning(int sign){
+        if (sign == 1){
+
+            warning.color = Color.red;
+        }
+        else{
+            warning.color = Color.clear;
+
         }
     }
 }
