@@ -61,7 +61,6 @@ public class playerMovement : MonoBehaviour
 		movedirectionX *= speed;
 		_controller.Move(movedirectionX * Time.deltaTime);
 	}
-<<<<<<< HEAD
 
 
 	private void playSound(){
@@ -69,18 +68,30 @@ public class playerMovement : MonoBehaviour
 	}
 
 	IEnumerator soundCoroutine(){
-		float prevDist = 15;
+		float prevDist = manager.dist;
+		float interval = 2f;
 		while(true){
-			Debug.Log(manager.dist);
+			// Debug.Log(manager.dist);
 			
 			heart.Play();
+			Debug.Log("prevDist: "+prevDist+" managerDist= "+manager.dist+" gap: "+(prevDist-manager.dist));
+			if(interval >= 0.3f && prevDist-manager.dist >= 0.5){
+				interval = interval - 0.3f;
+				Debug.Log("new interval: "+interval);
+			}
+			else{
+				interval = interval + 0.15f;
 
-			float interval = manager.dist < prevDist ? 0.5f : 2f;
+			}
 			prevDist = manager.dist;
+			if(manager.dist >= manager.safeDist){
+				yield return new WaitForSeconds(1);
+
+			}
 			yield return new WaitForSeconds(interval);
 			heart.Stop();
 		}
-=======
+	}
 	public void ispressed()
 	{
 		//Debug.Log(Input.GetKeyDown(KeyCode.X));
@@ -93,7 +104,6 @@ public class playerMovement : MonoBehaviour
 			}
 		}
 		
->>>>>>> c779587636a75d7f7c58ecba6139a976e657b885
 	}
 }
 

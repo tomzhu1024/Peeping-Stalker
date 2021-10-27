@@ -8,7 +8,7 @@ public class manager : MonoBehaviour
 {
 	[Tooltip("The minimal distance to fail the game.")]
 	public static float minimalDist = 4f; //directly fail
-
+    public static float safeDist = 9f; //safe distance
 	[Tooltip("The maximal distance to fail the game.")]
 	public float maximalDist = 20f;
 	

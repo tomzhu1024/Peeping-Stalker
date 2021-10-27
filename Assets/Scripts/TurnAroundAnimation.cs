@@ -42,7 +42,7 @@ public class TurnAroundAnimation : MonoBehaviour
             GUIControl.toggleWarning(1);
             TurnAround();
             // If detected, fail the game
-            if (manager.GetAngle() < detectAngle && manager.GetDistance() < detectDistance)
+            if (manager.GetAngle() < detectAngle && manager.GetDistance() < 7)
             {
                 SceneManager.LoadScene("GameOver");
             }
