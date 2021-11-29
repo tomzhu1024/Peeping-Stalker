@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab443520-b1db-4701-ba93-632cc7d4e651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Option.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Option.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Amy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Amy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brian.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brian.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Option.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Option.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectClicker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectClicker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638146151374</updated>
       <workItem from="1638146164315" duration="11065000" />
-      <workItem from="1638209647694" duration="7714000" />
+      <workItem from="1638209647694" duration="8321000" />
     </task>
     <servers />
   </component>
