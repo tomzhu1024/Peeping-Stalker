@@ -2,20 +2,20 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Transition
+public class SmoothTransition
 {
     public static int Linear = 0;
     public static int Quadratic = 1;
     
     private readonly Queue<(float, float, float, int)> _actionQueue = new Queue<(float, float, float, int)>();
+    private float _startTime;
     private float _duration;
     private float _fromValue;
-    private int _method;
-    private float _startTime;
     private float _toValue;
-    public float CurrentValue;
+    private int _method;
 
     public bool IsTransiting;
+    public float CurrentValue;
 
     public void AddAction(float duration, float fromValue, float toValue, int method)
     {

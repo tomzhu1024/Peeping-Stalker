@@ -9,7 +9,7 @@ public class MixingCameraControl : MonoBehaviour
 
     private float _currentCamera = 0f;
     private CinemachineMixingCamera _mixer;
-    private Transition _transition = new Transition();
+    private SmoothTransition _smoothTransition = new SmoothTransition();
 
     // Start is called before the first frame update
     private void Start()
@@ -21,10 +21,10 @@ public class MixingCameraControl : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        _transition.Update();
-        if (!_transition.IsTransiting)
+        _smoothTransition.Update();
+        if (!_smoothTransition.IsTransiting)
             return;
-        SetCamera(_transition.CurrentValue);
+        SetCamera(_smoothTransition.CurrentValue);
     }
 
     private void SetCamera(float value)
@@ -35,7 +35,7 @@ public class MixingCameraControl : MonoBehaviour
 
     public void SwitchCamera()
     {
-        _transition.AddAction(transitionDuration, _currentCamera, 1 - _currentCamera, Transition.Quadratic);
+        _smoothTransition.AddAction(transitionDuration, _currentCamera, 1 - _currentCamera, SmoothTransition.Quadratic);
         _currentCamera = 1 - _currentCamera;
     }
 }
