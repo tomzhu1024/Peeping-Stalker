@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 public class ClickableObject : MonoBehaviour, IPointerClickHandler
 {
     public delegate void DelCallback();
+    
     private DelCallback _cb;
     
     // Start is called before the first frame update

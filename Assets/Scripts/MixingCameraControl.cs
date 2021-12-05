@@ -1,5 +1,8 @@
-using Cinemachine;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class MixingCameraControl : MonoBehaviour
 {
@@ -7,14 +10,13 @@ public class MixingCameraControl : MonoBehaviour
     public CinemachineMixingCamera cameraMixer;
     public CinemachineVirtualCameraBase cameraNarrow;
     public CinemachineVirtualCameraBase cameraWide;
-    public float transitionDuration = 1f;
+    public float transitionDuration = 0.5f;
 
-    private float _currentValue;
+    private float _currentValue = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        _currentValue = 0;
         SetCamera(_currentValue);
     }
 

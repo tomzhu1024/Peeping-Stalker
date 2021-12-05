@@ -42,18 +42,20 @@ public class AnimationSequence : MonoBehaviour
         }
     }
 
-    public bool IsAnimating => _state == State.Animating;
-    public Vector3 Value { get; private set; }
-
-    private State _state;
-    private Queue<Animation> _animations;
+    public ChessBoard chessBoard;
+    public Animator[] chessAnimators;
+    
+    private State _state = State.NotAnimating;
+    private readonly Queue<Animation> _animations = new Queue<Animation>();
     private float _startTime;
+
+    public bool IsAnimating => _state == State.Animating || _animations.Count > 0;
+    public Vector3 Value { get; private set; }
 
     // Start is called before the first frame update
     void Start()
     {
-        _state = 0;
-        _animations = new Queue<Animation>();
+
     }
 
     // Update is called once per frame
@@ -103,11 +105,16 @@ public class AnimationSequence : MonoBehaviour
                     case Subject.Position:
                     {
                         transform.position = value;
+                        // Start walking animation for chess only
+                        foreach (var chessAnimator in chessAnimators)
+                        {
+                            chessAnimator.SetBool("IsWalking", true);
+                        }
                         break;
                     }
                     case Subject.Rotation:
                     {
-                        transform.rotation = new Quaternion(value.x, value.y, value.z, 1);
+                        transform.rotation = Quaternion.Euler(value);
                         break;
                     }
                 }
@@ -116,6 +123,11 @@ public class AnimationSequence : MonoBehaviour
                 {
                     _state = State.NotAnimating;
                     _animations.Dequeue();
+                    // Stop walking animation for chess only
+                    foreach (var chessAnimator in chessAnimators)
+                    {
+                        chessAnimator.SetBool("IsWalking", false);
+                    }
                 }
                 break;
             }
@@ -124,6 +136,11 @@ public class AnimationSequence : MonoBehaviour
 
     public void AddToSequence(Subject subject, Vector3 startValue, Vector3 endValue, float duration, Curve curve)
     {
+        if (subject == Subject.Rotation)
+        {
+            startValue = Quaternion.LookRotation(startValue, chessBoard.GetUpVector()).eulerAngles;
+            endValue = Quaternion.LookRotation(endValue, chessBoard.GetUpVector()).eulerAngles;
+        }
         _animations.Enqueue(new Animation(subject, startValue, endValue, duration, curve));
     }
 

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6585265749949439862}
-  - component: {fileID: 4498922381201255664}
   m_Layer: 0
   m_Name: Amy
   m_TagString: Untagged
@@ -33,20 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &4498922381201255664
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010324538326197322}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.45
-  m_Height: 1.85
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.925, z: 0}
 --- !u!1001 &2886372111239386262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109,6 +94,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b95b4b7f9e9ccb741959c9d495142985, type: 3}
   m_PrefabInstance: {fileID: 2886372111239386262}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6095697459197657730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -245955603384576492, guid: b95b4b7f9e9ccb741959c9d495142985, type: 3}
+  m_PrefabInstance: {fileID: 2886372111239386262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9119625841110722539
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095697459197657730}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34ee7b29c4883d047a7addb823f0af62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5939419155871094810
 PrefabInstance:
   m_ObjectHideFlags: 0
