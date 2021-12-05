@@ -3,39 +3,41 @@ using UnityEngine;
 
 public class MixingCameraControl : MonoBehaviour
 {
-    public float transitionDuration = 1f;
+    public AnimationSequence animationSequence;
+    public CinemachineMixingCamera cameraMixer;
     public CinemachineVirtualCameraBase cameraNarrow;
     public CinemachineVirtualCameraBase cameraWide;
+    public float transitionDuration = 1f;
 
-    private float _currentCamera = 0f;
-    private CinemachineMixingCamera _mixer;
-    private SmoothTransition _smoothTransition = new SmoothTransition();
+    private float _currentValue;
 
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
-        _mixer = GetComponent<CinemachineMixingCamera>();
-        SetCamera(_currentCamera);
+        _currentValue = 0;
+        SetCamera(_currentValue);
     }
 
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
-        _smoothTransition.Update();
-        if (!_smoothTransition.IsTransiting)
-            return;
-        SetCamera(_smoothTransition.CurrentValue);
-    }
-
-    private void SetCamera(float value)
-    {
-        _mixer.SetWeight(cameraNarrow, 1 - value);
-        _mixer.SetWeight(cameraWide, value);
+        if (animationSequence.IsAnimating)
+        {
+            SetCamera(animationSequence.Value.x);
+        }
     }
 
     public void SwitchCamera()
     {
-        _smoothTransition.AddAction(transitionDuration, _currentCamera, 1 - _currentCamera, SmoothTransition.Quadratic);
-        _currentCamera = 1 - _currentCamera;
+        animationSequence.AddToSequence(AnimationSequence.Subject.Nothing, new Vector3(_currentValue, 0, 0),
+            new Vector3(1 - _currentValue, 0, 0),
+            transitionDuration, AnimationSequence.Curve.Quadratic);
+        _currentValue = 1 - _currentValue;
+    }
+
+    private void SetCamera(float value)
+    {
+        cameraMixer.SetWeight(cameraNarrow, 1 -value);
+        cameraMixer.SetWeight(cameraWide, value);
     }
 }

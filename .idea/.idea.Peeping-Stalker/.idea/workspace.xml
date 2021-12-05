@@ -6,7 +6,628 @@
   <component name="ChangeListManager">
     <list default="true" id="ab443520-b1db-4701-ba93-632cc7d4e651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Color Profile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Color Profile/Bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Color Profile/Bird.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Color Profile/Fish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Color Profile/Fish.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Alpha Flashing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Alpha Flashing/Alpha Flashing Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Alpha Flashing/Alpha Flashing Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Clouds Type 2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Clouds Type 2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Horizon.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Horizon.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/DynamicSkyLite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/DynamicSkyLite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Clouds.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Clouds.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Lens Flare.flare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Lens Flare.flare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Lens Flare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Lens Flare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Ref d.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Ref d.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Mesh/Sky Dome.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Mesh/Sky Dome.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPS Counter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPS Counter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPSCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPSCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Jelly Sprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Jelly Sprite/Jelly Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Jelly Sprite/Jelly Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Occlusion, Reflection, Cull Off).shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Occlusion, Reflection, Cull Off).shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Reflection, Cull Off).shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Reflection, Cull Off).shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Transparent. Normalmap, Reflection, Cull Off).shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Transparent. Normalmap, Reflection, Cull Off).shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader for water.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader for water.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx n 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx n 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx nh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx nh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water Shader Type 2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water Shader Type 2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Arena 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Arena 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Arena.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Arena.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Mesh/Arena.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Mesh/Arena.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Prefabs/Arena.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Arena/Prefabs/Arena.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Caustics tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Caustics tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand h.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand nm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Mesh/Sand Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Mesh/Sand Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Shark.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Shark.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/TDControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/TDControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Underwater.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Underwater.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark e.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Mesh/Shark.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Mesh/Shark.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Prefabs/Shark.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Shark/Prefabs/Shark.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound1.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound2.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound3.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Underwater.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Underwater.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Wind.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Wind.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Underwater.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Underwater.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Butterfly.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Butterfly.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids Danger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids Danger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish and Bird Boids.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Scenes/Fish and Bird Boids.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Bird NX Shaders.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Bird NX Shaders.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Fish NX Shaders.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Fish NX Shaders.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird W.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird W.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Birs n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Birs n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly e.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 E.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 N1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 N1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 N2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0 N2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Reflection.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Reflection.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 E.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 E.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2a.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2a.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Bird Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Bird Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Butterfly.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Butterfly.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Fish Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Mesh/Fish Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/NVBoids.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/NVBoids.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref W.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref W.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/NVBoids Bird.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/NVBoids Bird.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Butterfly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Butterfly/Butterfly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Butterfly/Butterfly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 0 Pref.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 0 Pref.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 1 Pref.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 1 Pref.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2 Pref.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2 Pref.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2a Pref.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2a Pref.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/NVBoids Fish.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/NVBoids Fish.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/license_nvjob.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/license_nvjob.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/license_unity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Boids/license_unity.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Runtime/Scenes/LookDev/floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Runtime/Scenes/LookDev/floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Tests/UniGLTF/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Tests/UniGLTF/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/UniHumanoid/Scenes/target.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/UniHumanoid/Scenes/target.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/VRM10/Tests/Resources/TestStandard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/VRM10/Tests/Resources/TestStandard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Amy Standing-Ch46_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Amy Standing-Ch46_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Amy Walking-Ch46_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Amy Walking-Ch46_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Chess Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Chess Base.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor Block.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor Block.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Indicator.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Indicator.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Option.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Option.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +638,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChessBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationSequence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -28,6 +649,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -66,6 +688,7 @@
       <updated>1638146151374</updated>
       <workItem from="1638146164315" duration="11065000" />
       <workItem from="1638209647694" duration="8321000" />
+      <workItem from="1638687977846" duration="10022000" />
     </task>
     <servers />
   </component>
@@ -88,6 +711,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
