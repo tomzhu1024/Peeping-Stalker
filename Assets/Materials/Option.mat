@@ -9,8 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Option
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+<<<<<<< Updated upstream
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
+=======
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 0
+>>>>>>> Stashed changes
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
@@ -80,6 +85,10 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 1
+<<<<<<< Updated upstream
+=======
+    - _BlendOp: 0
+>>>>>>> Stashed changes
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -102,17 +111,33 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+<<<<<<< Updated upstream
+=======
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+>>>>>>> Stashed changes
     - _Surface: 1
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.29716977, g: 1, b: 0.35564557, a: 0.64705884}
+<<<<<<< Updated upstream
+=======
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+>>>>>>> Stashed changes
     - _Color: {r: 0.2971698, g: 1, b: 0.3556456, a: 0.64705884}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+<<<<<<< Updated upstream
 --- !u!114 &5483216007270331177
+=======
+--- !u!114 &884856416404561570
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

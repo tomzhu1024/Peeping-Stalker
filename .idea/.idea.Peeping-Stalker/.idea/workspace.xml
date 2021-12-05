@@ -9,6 +9,31 @@
   <component name="ChangeListManager">
     <list default="true" id="ab443520-b1db-4701-ba93-632cc7d4e651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Runtime/Scenes/LookDev/floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Runtime/Scenes/LookDev/floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Tests/UniGLTF/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/Tests/UniGLTF/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/UniHumanoid/Scenes/target.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/UniGLTF/UniHumanoid/Scenes/target.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/VRM10/Tests/Resources/TestStandard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/VRM10/Tests/Resources/TestStandard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rdParty/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rdParty/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Amy Standing-Ch46_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Amy Standing-Ch46_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Amy Walking-Ch46_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Amy Walking-Ch46_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Standing-Ch01_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brian Walking-Ch01_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Chess Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Chess Base.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor Block.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor Block.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Indicator.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Indicator.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Option.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Option.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +46,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectClicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Transition.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmoothTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectId" id="21ZQUfgRDTIFftl1UUf148rZlgV" />
   <component name="ProjectViewState">

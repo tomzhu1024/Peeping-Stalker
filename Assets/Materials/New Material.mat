@@ -8,17 +8,32 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
+<<<<<<< Updated upstream
   m_Shader: {fileID: -6465566751694194690, guid: ad7c3739b735f46078c6d89a3f951e1a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
+=======
+  m_Shader: {fileID: -6465566751694194690, guid: 23c20c0b62299437bbc6e0c73a7033a6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+>>>>>>> Stashed changes
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+<<<<<<< Updated upstream
+=======
+    - Texture2D_0095da682e0c4f48b49761badb9c34ab:
+        m_Texture: {fileID: 2800000, guid: 172358b69c7eb4385b70c97049bbf4c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+>>>>>>> Stashed changes
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -63,10 +78,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< Updated upstream
     - _Texture2DAsset_4a0908c31cd041d9ab29f0cbdf26f41a_Out_0:
         m_Texture: {fileID: 2800000, guid: 172358b69c7eb4385b70c97049bbf4c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> Stashed changes
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,8 +98,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+<<<<<<< Updated upstream
     - Vector1_9559677c42594a94a8a485f2f84028a4: 2
     - Vector1_beefddef9ae547dd87e9b05e475aa1ee: 44
+=======
+>>>>>>> Stashed changes
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -109,13 +130,21 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+<<<<<<< Updated upstream
     - Color_53ba8930ef7c4492a8663106a5f2f101: {r: 0.03301889, g: 1, b: 0.95786506, a: 0}
+=======
+    - Color_1849272926664ea8b43b312dd1e9140e: {r: 1, g: 0.5294118, b: 0, a: 1}
+>>>>>>> Stashed changes
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+<<<<<<< Updated upstream
 --- !u!114 &9186587734593045044
+=======
+--- !u!114 &2742081052851689294
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
