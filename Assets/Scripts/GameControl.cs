@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class GameControl : MonoBehaviour
 
     private State _state = State.WaitInput;
     private int _sceneIndex = 0;
+    private int _stepCount = 0;
 
     private readonly Dictionary<Vector2, List<Vector2>> _graph = new Dictionary<Vector2, List<Vector2>>{
         {new Vector2(0, 0), new List<Vector2>{new Vector2(1, 0), new Vector2(0, 1)}},
@@ -116,8 +118,12 @@ public class GameControl : MonoBehaviour
                         if (graphUtils.GetDistance(_graph, _manChessPos, _girlChessPos) <= 2)
                         {
                             StartSwitchToNight();
+                            _stepCount = 0;
                             _sceneIndex = 1;
                             _state = State.SwitchToNight;
+                        } else if (_stepCount > 6)
+                        {
+                            SetFail();
                         }
                         break;
                     }
@@ -126,8 +132,12 @@ public class GameControl : MonoBehaviour
                         if (_manChessPos == new Vector2(0, 0))
                         {
                             StartSwitchToDay();
+                            _stepCount = 0;
                             _sceneIndex = 2;
                             _state = State.SwitchToDay;
+                        } else if (_manChessPos == _girlChessPos)
+                        {
+                            SetFail();
                         }
                         break;
                     }
@@ -135,7 +145,7 @@ public class GameControl : MonoBehaviour
                     {
                         if (graphUtils.GetDistance(_graph, _manChessPos, _girlChessPos) <= 1)
                         {
-                            // Win
+                            SetWin();
                         }
                         break;
                     }
@@ -210,6 +220,7 @@ public class GameControl : MonoBehaviour
         manChess.AddToSequence(AnimationSequence.Subject.Position, chessBoard.ChessVecToRealVec(_manChessPos),
             chessBoard.ChessVecToRealVec(dst), 1, AnimationSequence.Curve.Quadratic);
         _manChessPos = dst;
+        _stepCount++;
     }
 
     private void AutoMoveGirlChess()
@@ -282,6 +293,17 @@ public class GameControl : MonoBehaviour
         nightScene.AddToSequence(AnimationSequence.Subject.Disable, Vector3.zero, Vector3.zero, 0, AnimationSequence.Curve.Linear);
         chessGroup.AddToSequence(AnimationSequence.Subject.Enable, Vector3.zero, Vector3.zero, 0, AnimationSequence.Curve.Linear);
     }
+
+    private void SetWin()
+    {
+        SceneManager.LoadScene("Victory");
+    }
+
+    private void SetFail()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+    
     public void OnDrawGizmosSelected()
     {
         // Draw grid dots
