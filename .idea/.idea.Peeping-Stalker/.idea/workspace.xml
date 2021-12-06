@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ab443520-b1db-4701-ba93-632cc7d4e651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Peeping-Stalker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Option.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Option.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Option.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Option.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationSequence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSequence.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChessBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChessBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControlL1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControlL1.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GraphUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GraphUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MixingCameraControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelfRotating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SelfRotating.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChessBoard.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -80,7 +84,7 @@
       <workItem from="1638209647694" duration="8321000" />
       <workItem from="1638687977846" duration="13632000" />
       <workItem from="1638705743317" duration="14301000" />
-      <workItem from="1638789826189" duration="7004000" />
+      <workItem from="1638789826189" duration="12673000" />
     </task>
     <servers />
   </component>

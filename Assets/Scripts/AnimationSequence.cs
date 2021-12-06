@@ -10,8 +10,11 @@ public class AnimationSequence : MonoBehaviour
     public enum Subject
     {
         Position,
-        Rotation,
-        MixingCamera
+        RotationTowards,
+        MixingCamera,
+        RotationEuler,
+        Enable,
+        Disable
     }
 
     public enum Curve
@@ -50,6 +53,8 @@ public class AnimationSequence : MonoBehaviour
     [SerializeField] private CinemachineMixingCamera cameraMixer;
     [SerializeField] private CinemachineVirtualCameraBase camera0;
     [SerializeField] private CinemachineVirtualCameraBase camera1;
+    // For enable/disable
+    [SerializeField] private GameObject[] gameObjects;
 
     private State _state = State.NotAnimating;
     private readonly Queue<Animation> _animations = new Queue<Animation>();
@@ -117,7 +122,7 @@ public class AnimationSequence : MonoBehaviour
                         }
                         break;
                     }
-                    case Subject.Rotation:
+                    case Subject.RotationTowards:
                     {
                         transform.rotation = Quaternion.Euler(value);
                         break;
@@ -130,6 +135,36 @@ public class AnimationSequence : MonoBehaviour
                             // Only use the X-dimension value
                             cameraMixer.SetWeight(camera0, 1 - value.x);
                             cameraMixer.SetWeight(camera1, value.x);
+                        }
+                        break;
+                    }
+                    case Subject.RotationEuler:
+                    {
+                        transform.rotation = Quaternion.Euler(value);
+                        break;
+                    }
+                    case Subject.Enable:
+                    {
+                        // Enable game object for render
+                        foreach (var go in gameObjects)
+                        {
+                            print("try to activate " + go);
+                            if (go != null)
+                            {
+                                go.SetActive(true);
+                            }
+                        }
+                        break;
+                    }
+                    case Subject.Disable:
+                    {
+                        // Disable game object for render
+                        foreach (var go in gameObjects)
+                        {
+                            if (go != null)
+                            {
+                                go.SetActive(false);
+                            }
                         }
                         break;
                     }
@@ -152,10 +187,14 @@ public class AnimationSequence : MonoBehaviour
 
     public void AddToSequence(Subject subject, Vector3 startValue, Vector3 endValue, float duration, Curve curve)
     {
-        if (subject == Subject.Rotation)
+        if (subject == Subject.RotationTowards)
         {
             startValue = Quaternion.LookRotation(startValue).eulerAngles;
             endValue = Quaternion.LookRotation(endValue).eulerAngles;
+        }
+        if (subject == Subject.Disable || subject == Subject.Enable)
+        {
+            duration = 0;
         }
         _animations.Enqueue(new Animation(subject, startValue, endValue, duration, curve));
     }

@@ -17,7 +17,7 @@ public class SelfRotating : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.Euler(0, 180, _deg);
+        transform.localRotation = Quaternion.Euler(0, 180, _deg);
         _deg += rotatingSpeed * Time.deltaTime;
     }
 }
