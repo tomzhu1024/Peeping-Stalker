@@ -1,15 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using Cinemachine;
 using UnityEngine;
 
 public class AnimationSequence : MonoBehaviour
 {
     public enum Subject
     {
-        Nothing,
         Position,
-        Rotation
+        Rotation,
+        MixingCamera
     }
 
     public enum Curve
@@ -42,9 +44,13 @@ public class AnimationSequence : MonoBehaviour
         }
     }
 
-    public ChessBoard chessBoard;
-    public Animator[] chessAnimators;
-    
+    // For chess
+    [SerializeField] private Animator[] chessAnimators;
+    // For mixing camera
+    [SerializeField] private CinemachineMixingCamera cameraMixer;
+    [SerializeField] private CinemachineVirtualCameraBase camera0;
+    [SerializeField] private CinemachineVirtualCameraBase camera1;
+
     private State _state = State.NotAnimating;
     private readonly Queue<Animation> _animations = new Queue<Animation>();
     private float _startTime;
@@ -98,17 +104,16 @@ public class AnimationSequence : MonoBehaviour
                 Value = value;
                 switch (anim.Subject)
                 {
-                    case Subject.Nothing:
-                    {
-                        break;
-                    }
                     case Subject.Position:
                     {
                         transform.position = value;
-                        // Start walking animation for chess only
+                        // Start walking animation, for chess only
                         foreach (var chessAnimator in chessAnimators)
                         {
-                            chessAnimator.SetBool("IsWalking", true);
+                            if (chessAnimator != null)
+                            {
+                                chessAnimator.SetBool("IsWalking", true);
+                            }
                         }
                         break;
                     }
@@ -117,13 +122,24 @@ public class AnimationSequence : MonoBehaviour
                         transform.rotation = Quaternion.Euler(value);
                         break;
                     }
+                    case Subject.MixingCamera:
+                    {
+                        // Updating camera weights, for mixing camera only
+                        if (cameraMixer != null && camera0 != null && camera1 != null)
+                        {
+                            // Only use the X-dimension value
+                            cameraMixer.SetWeight(camera0, 1 - value.x);
+                            cameraMixer.SetWeight(camera1, value.x);
+                        }
+                        break;
+                    }
                 }
                 // Check if animation ends
                 if (Time.time - _startTime >= anim.Duration)
                 {
                     _state = State.NotAnimating;
                     _animations.Dequeue();
-                    // Stop walking animation for chess only
+                    // Stop walking animation, for chess only
                     foreach (var chessAnimator in chessAnimators)
                     {
                         chessAnimator.SetBool("IsWalking", false);
@@ -138,8 +154,8 @@ public class AnimationSequence : MonoBehaviour
     {
         if (subject == Subject.Rotation)
         {
-            startValue = Quaternion.LookRotation(startValue, chessBoard.GetUpVector()).eulerAngles;
-            endValue = Quaternion.LookRotation(endValue, chessBoard.GetUpVector()).eulerAngles;
+            startValue = Quaternion.LookRotation(startValue).eulerAngles;
+            endValue = Quaternion.LookRotation(endValue).eulerAngles;
         }
         _animations.Enqueue(new Animation(subject, startValue, endValue, duration, curve));
     }

@@ -62,7 +62,7 @@ public class GraphUtils : MonoBehaviour
         var options = GetNeighbors(graph, src);
         if (options.Count == 0)
         {
-            return Vector2.zero;
+            return new Vector2(-1, -1);
         }
         var index = Random.Range(0, options.Count);
         return options[index];
@@ -86,7 +86,7 @@ public class GraphUtils : MonoBehaviour
         }
         if (validOptions.Count == 0)
         {
-            return Vector2.zero;
+            return new Vector2(-1, -1);
         }
         var index = Random.Range(0, validOptions.Count);
         return validOptions[index];
@@ -110,7 +110,7 @@ public class GraphUtils : MonoBehaviour
         }
         if (validOptions.Count == 0)
         {
-            return Vector2.zero;
+            return new Vector2(-1, -1);
         }
         var index = Random.Range(0, validOptions.Count);
         return validOptions[index];
